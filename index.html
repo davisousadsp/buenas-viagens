@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buenas Viagens!</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ── Nav ── -->
+  <nav>
+    <a class="logo">Buenas Viagens!</a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#passeios">Passeios</a></li>
+      <li><a href="#destinos">Destinos</a></li>
+      <li><a href="#avaliacoes">Avaliações</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero" id="home">
+    <h1>EXPLORE O MUNDO!</h1>
+    <div class="busca-hero">
+      <div class="campo-data" style="flex:2;">
+        <label>Para onde vamos?</label>
+        <input type="text" placeholder="Ex: Paris, Roma, Lisboa..."/>
+      </div>
+      <div class="campo-data">
+        <label>Quando?</label>
+        <input type="date" />
+      </div>
+      <div class="campo-data">
+        <label>Retorno</label>
+        <input type="date" />
+      </div>
+      <div class="campo-data">
+        <button class="btn-busca">Buscar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Próximos Passeios e Destinos ── -->
+  <section id="passeios">
+    <div class="passeios-grid">
+      <div class="passeios-texto">
+        <h2>Próximos Passeios &amp; Destinos</h2>
+        <div class="sublinha"></div>
+        <p>
+          Descubra experiências únicas ao redor do mundo com a Buenas Viagens. 
+          Planejamos cada detalhe para que você aproveite ao máximo sua viagem — 
+          de passeios culturais a aventuras inesquecíveis em destinos incríveis 
+          pela Europa e além.
+        </p>
+        <a href="#destinos" class="btn-passeios">Saiba mais</a>
+      </div>
+      <div class="passeios-fotos">
+        <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&q=80" alt="Família viajando" />
+        <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=400&q=80" alt="Mochileiro" />
+        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&q=80" alt="Fotógrafa viajante" />
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=400&q=80" alt="Vista panorâmica" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Para onde você quer viajar? ── -->
+  <section id="destinos">
+    <h2>Para onde você quer viajar?</h2>
+    <div class="destinos-grid">
+
+      <!-- Barcelona -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1583422409516-2895a77efded?w=500&q=80" alt="Barcelona" />
+        <div class="card-body">
+          <h3>Barcelona, <span>Espanha</span></h3>
+          <p>Uma cidade vibrante com arquitetura única de Gaudí, belas praias e gastronomia incomparável.</p>
+          <div class="card-preco">
+            <div class="preco-info">
+              <span class="preco-antigo">R$ 4.400,00</span>
+              <span class="preco-atual">R$ 3.900,00</span>
+            </div>
+            <button class="btn-card">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Porto -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=500&q=80" alt="Porto" />
+        <div class="card-body">
+          <h3>Porto, <span>Portugal</span></h3>
+          <p>A cidade das pontes e do vinho do Porto, com seu charme histórico à beira do Rio Douro.</p>
+          <div class="card-preco">
+            <div class="preco-info">
+              <span class="preco-antigo">R$ 4.300,00</span>
+              <span class="preco-atual">R$ 3.700,00</span>
+            </div>
+            <button class="btn-card">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Milão -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1610016302534-6f67f1c968d8?w=500&q=80" alt="Milão" />
+        <div class="card-body">
+          <h3>Milão, <span>Itália</span></h3>
+          <p>A capital da moda mundial, com o Duomo impressionante e uma cena cultural inesquecível.</p>
+          <div class="card-preco">
+            <div class="preco-info">
+              <span class="preco-antigo">R$ 4.200,00</span>
+              <span class="preco-atual">R$ 3.500,00</span>
+            </div>
+            <button class="btn-card">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Londres -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=500&q=80" alt="Londres" />
+        <div class="card-body">
+          <h3>Londres, <span>Inglaterra</span></h3>
+          <p>Big Ben, museus de classe mundial e uma mistura de tradição e modernidade única no mundo.</p>
+          <div class="card-preco">
+            <div class="preco-info">
+              <span class="preco-antigo">R$ 4.900,00</span>
+              <span class="preco-atual">R$ 4.200,00</span>
+            </div>
+            <button class="btn-card">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lauterbrunnen -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=80" alt="Lauterbrunnen" />
+        <div class="card-body">
+          <h3>Lauterbrunnen, <span>Suíça</span></h3>
+          <p>Um vale de tirar o fôlego com 72 cachoeiras, Alpes majestosos e vilarejos de conto de fadas.</p>
+          <div class="card-preco">
+            <div class="preco-info">
+              <span class="preco-antigo">R$ 4.300,00</span>
+              <span class="preco-atual">R$ 3.900,00</span>
+            </div>
+            <button class="btn-card">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paris -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=500&q=80" alt="Paris" />
+        <div class="card-body">
+          <h3>Paris, <span>França</span></h3>
+          <p>A Cidade Luz encanta com a Torre Eiffel, culinária refinada e museus que marcam para sempre.</p>
+          <div class="card-preco">
+            <div class="preco-info">
+              <span class="preco-antigo">R$ 5.300,00</span>
+              <span class="preco-atual">R$ 4.500,00</span>
+            </div>
+            <button class="btn-card">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Avaliações ── -->
+  <section id="avaliacoes">
+    <h2>Avaliações dos Clientes</h2>
+    <div class="depoimento">
+      <blockquote>
+        "A Buenas Viagens transformou nossa lua de mel em algo simplesmente mágico. 
+        Cada detalhe foi cuidado com tanto carinho — do hotel à experiência local. 
+        Voltamos realizados e já estamos planejando a próxima viagem com eles!"
+      </blockquote>
+      <img class="avatar"
+        src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80"
+        alt="Patrícia" />
+      <p id="patricia2"><strong><span id="patricia">Patrícia</span></strong>, jornalista.</p>
+      <div class="setas">
+        <button class="seta">&#8249;</button>
+        <button class="seta">&#8250;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-grid">
+
+      <div class="footer-col">
+        <div class="footer-logo">Buenas Viagens!</div>
+        <address>
+          Buenas Viagens &amp; Turismo S.A.<br/>
+          Avenida da Boa Vista, 1234<br/>
+          Porto, Portugal
+        </address>
+        <p style="margin-top:10px;">Buenas Viagens &amp; Turismo S.A. © Todos os direitos reservados 2024</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Nossos Parceiros</h4>
+        <ul>
+          <li>Google</a></li>
+          <li>Amazon</a></li>
+          <li>SpaceX</a></li>
+          <li>Banco do Brasil</a></li>
+          <li>Governo Federal</a></li>
+          <li>Casa branca</a></li>
+          <li>NASA</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Assine a nossa newsletter</h4>
+        <div class="newsletter">
+          <input type="email" placeholder="Informe seu e-mail" />
+          <button>Enviar</button>
+        </div>
+
+        <h4 style="margin-top:28px;">Siga nossas redes sociais</h4>
+        <div class="redes">
+          <a class="ico-facebook" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="ico-instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a class="ico-youtube" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
